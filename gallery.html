@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+        <link href="css/lightbox.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type="text/javascript">
+		$(function() {
+			$('#gallery a').lightBox();
+		});
+    </script>
+
+
+   </head>
+
+<body>
+    <div class="container">
+        <div id="nav"></div>
+        <div id="content">
+            <h1>Photo Gallery </h1>
+
+        <p>Lorem pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. quam egestas semper.<br> Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. </p>
+        <div id="gallery">
+            <a href="images/gallery/pic1.jpg" title="First image caption text">
+            <img src="images/gallery/pic1.jpg" width="120" height="80" /></a>
+            <a href="images/gallery/pic2.jpg" title="Second image caption text">
+            <img src="images/gallery/pic2.jpg" width="120" height="80" /></a>
+            <a href="images/gallery/pic3.jpg" title="Third image caption text">
+            <img src="images/gallery/pic3.jpg" width="120" height="80" /></a><br>
+
+            <a href="images/gallery/pic6.jpg" title="Third image caption text">
+            <img src="images/gallery/pic6.jpg" width="80" height="120" /></a>
+            <a href="images/gallery/pic7.jpg" title="Third image caption text">
+            <img src="images/gallery/pic7.jpg" width="80" height="120" /></a>
+            <a href="images/gallery/pic9.jpg" title="Third image caption text">
+            <img src="images/gallery/pic9.jpg" width="80" height="120" /></a>
+            <a href="images/gallery/pic10.jpg" title="Third image caption text">
+            <img src="images/gallery/pic10.jpg" width="80" height="120" /></a><br>
+            <a href="images/gallery/pic11.jpg" title="Third image caption text">
+            <img src="images/gallery/pic11.jpg" width="80" height="120" /></a>
+            <a href="images/gallery/pic12.jpg" title="Third image caption text">
+            <img src="images/gallery/pic12.jpg" width="80" height="120" /></a>
+            <a href="images/gallery/pic13.jpg" title="Third image caption text">
+            <img src="images/gallery/pic13.jpg" width="80" height="120" /></a>
+            <a href="images/gallery/pic14.jpg" title="Third image caption text">
+            <img src="images/gallery/pic14.jpg" width="80" height="120" /></a>  <br>
+
+        </div>
+            <div id=" rollover">
+            <a href="index.html">
+    <img src="images/gallery/pic12.jpg" width="400" height="600"
+       onmouseover="this.src='images/gallery/pic6.jpg';"
+       onmouseout="this.src='images/gallery/pic13.jpg';">
+    </img>
+</a>
+   </div>
+
+              </div>
+        <div id="footer"></div>
+    </div>
+    <script data-main="js/app" src="js/lib/require.js"></script>
+
+
+</body>
+
+</html>
