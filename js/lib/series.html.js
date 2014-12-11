@@ -1,4 +1,5 @@
 define(["jquery", "bootstrap"], function (jQuery) {
+    jQuery("#newsstory").load("serie1.html");
     jQuery(".nav-tabs a").click(function () {
         jQuery("#newsstory").load(this.name + ".html");
         jQuery(".active").removeClass("active");
@@ -8,7 +9,7 @@ define(["jquery", "bootstrap"], function (jQuery) {
     //
     $(function () {
         var $slider = $('.panel-inner'); //get the slider
-        var liW = 75; //define single LI width
+        var liW = 55; //define single LI width
         var liFW = parseInt(liW * ($slider.find('li').length + 1)); //find the full width of the UL 191 * LI's
         $slider.css('width', liFW + 'px'); //apply the full-width to the UL
         $('.button').click(function () {
