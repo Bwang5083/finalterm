@@ -1,4 +1,5 @@
 @import url("//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+@import url("lightbox.css");
 
 /* don't want to update until everything is retrieved*/
 
@@ -22,6 +23,9 @@ h2 {
     text-align: center;
     height: 450px !important;
 }
+
+.item h3 {color:#FF8040;}
+
 .carousel {
     margin-top: 20px;
 }
